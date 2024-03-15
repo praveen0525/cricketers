@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+h1{
+    color: red;
+    background: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+
+}
+.name{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+img{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 50px 0 50px 0;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/7e/7d/85/7e7d85892efeb19df55dc5ebe5d2bd0f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    background-color:white;
+    text-align: center;
+    color:orange;
+    opacity: 0.3;
+}
+h2:hover{
+    opacity: 1;
+}
